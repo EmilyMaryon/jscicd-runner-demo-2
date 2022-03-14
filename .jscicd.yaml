@@ -1,0 +1,7 @@
+jscicd:
+  envVars:
+    - FOO=BAR
+    - TEST=YES
+  stages:
+    logger:
+      fromFile: logger.mjs
