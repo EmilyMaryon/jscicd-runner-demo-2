@@ -4,4 +4,4 @@ jscicd:
     - TEST=YES
   stages:
     logger:
-      fromFile: logger.mjs
+      fromFile: logging.mjs
